@@ -99,10 +99,8 @@ var move = function(gameData, helpers) {
 
   //Heal if you aren't full health and are close to a health well already
   else if (myHero.health < 80 && distanceToHealthWell <= 2) {
-
     return directionToHealthWell;
   }
-
 
   //If healthy, and owning 2 or more mines, go kill weak enemies
   else if(Object.keys(myHero.minesOwned) >= 2) {
