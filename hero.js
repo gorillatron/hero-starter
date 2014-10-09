@@ -103,7 +103,7 @@ var move = function(gameData, helpers) {
   }
 
   //If healthy, and owning 2 or more mines, go kill weak enemies
-  else if(Object.keys(myHero.minesOwned) >= 2) {
+  else if(Object.keys(myHero.minesOwned).length >= 2) {
     return helpers.findNearestWeakerEnemy()
   }
 
