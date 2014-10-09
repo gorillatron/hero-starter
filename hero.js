@@ -79,7 +79,7 @@
 //   }
 // };
 
-// // The "Safe Diamond Miner"
+// // The "Slightly Agressive Diamond Mine Defender"
 var move = function(gameData, helpers) {
   var myHero = gameData.activeHero;
 
